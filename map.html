@@ -16,6 +16,7 @@
 	"esri/layers/FeatureLayer",
 	"esri/Viewpoint",
 	"esri/views/SceneView",
+	"esri/widgets/Attribution",
 	"dojo/dom",
 	"dojo/on",
 	"dojo/domReady!"
@@ -25,6 +26,7 @@
 	FeatureLayer,
 	Viewpoint,
 	SceneView,
+	Attribution,
 	dom,
 	on
 	) {
@@ -81,9 +83,9 @@
 
 	myViewPoint6 = new Viewpoint ({
 		camera: {
-		position: [-22.2, 70.27, 30000],
-		tilt: 45,
-		heading: 10
+		position: [-17, 71.5, 100000],
+		tilt: 60,
+		heading: 290
 		},
 	});
 
@@ -203,6 +205,13 @@
 	height: 30px;
 	}
 
+	#att{
+	background: #AED2FD;
+	margin: 2px;
+	width: 100px;
+	height: 20px;
+	}
+
 </style>
 
 </head>
@@ -214,7 +223,6 @@
 			<button id="btn3">Day 3</button>
 			<button id="btn4">Day 4</button>
 			<button id="btn5">Day 5</button>
-			<button id="btn6">Day 6</button>
-			</div>
+			<button id="btn6">Day 6</button></div>
 	</body>
 </html>
