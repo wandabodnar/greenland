@@ -6,8 +6,6 @@ output:
     theme: yeti
 ---
 
-{data-orientation=rows, data-icon="fa-ship"}
-=====================================     
    
 Column {.tabset}
 -------------------------------------
